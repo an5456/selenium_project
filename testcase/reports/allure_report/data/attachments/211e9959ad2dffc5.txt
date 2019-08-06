@@ -1,0 +1,3 @@
+INFO:root:module开始
+INFO:root:test_8
+INFO:root:module完成，清理数据

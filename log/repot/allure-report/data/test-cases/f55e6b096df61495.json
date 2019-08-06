@@ -1,0 +1,82 @@
+{
+  "uid" : "f55e6b096df61495",
+  "name" : "test_class.TestClass.test_01",
+  "fullName" : "testcase.test_class.TestClass.test_01",
+  "historyId" : "1c02cb77371ae6fd1167a3cd5ce80d8a",
+  "time" : {
+    "start" : 1563591257866,
+    "stop" : 1563591257869,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "580f0bd05aef5ecd",
+      "name" : "Captured stdout setup",
+      "source" : "580f0bd05aef5ecd.txt",
+      "type" : "text/plain",
+      "size" : 128
+    }, {
+      "uid" : "1e758c0a28c39031",
+      "name" : "Captured stdout call",
+      "source" : "1e758c0a28c39031.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "95243-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_class.TestClass.test_01"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f55e6b096df61495.json",
+  "parameterValues" : [ ]
+}

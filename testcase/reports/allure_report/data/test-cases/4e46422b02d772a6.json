@@ -1,0 +1,97 @@
+{
+  "uid" : "4e46422b02d772a6",
+  "name" : "test_4[4-5-8]",
+  "fullName" : "test_calc.TestB#test_4[4-5-8]",
+  "historyId" : "94b484c0cfbbf0418119afe1e40c9119",
+  "time" : {
+    "start" : 1564493501597,
+    "stop" : 1564493501597,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (4 + 5) == 8",
+  "statusTrace" : "self = <testcase.test_calc.TestB object at 0x1106aae48>, a = 4, b = 5, c = 8\n\n    @pytest.mark.parametrize(\"a,b,c\", [\n        (1, 2, 3),\n        (4, 5, 8),\n        (3, 4, 7)\n    ])\n    def test_4(self, a, b, c):\n        logging.info('test_4')\n>       assert a + b == c\nE       assert (4 + 5) == 8\n\ntest_calc.py:56: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert (4 + 5) == 8",
+    "statusTrace" : "self = <testcase.test_calc.TestB object at 0x1106aae48>, a = 4, b = 5, c = 8\n\n    @pytest.mark.parametrize(\"a,b,c\", [\n        (1, 2, 3),\n        (4, 5, 8),\n        (3, 4, 7)\n    ])\n    def test_4(self, a, b, c):\n        logging.info('test_4')\n>       assert a + b == c\nE       assert (4 + 5) == 8\n\ntest_calc.py:56: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7314bfdc0acc4bb6",
+      "name" : "log",
+      "source" : "7314bfdc0acc4bb6.txt",
+      "type" : "text/plain",
+      "size" : 101
+    }, {
+      "uid" : "d42e3e71afbbd08f",
+      "name" : "stdout",
+      "source" : "d42e3e71afbbd08f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "116bdbb26b33a744",
+      "name" : "stderr",
+      "source" : "116bdbb26b33a744.txt",
+      "type" : "text/plain",
+      "size" : 42
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "84097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "4"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "c",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4e46422b02d772a6.json",
+  "parameterValues" : [ "4", "5", "8" ]
+}

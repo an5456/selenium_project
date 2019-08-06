@@ -1,0 +1,2 @@
+INFO:root:TestB初始化
+INFO:root:test_4

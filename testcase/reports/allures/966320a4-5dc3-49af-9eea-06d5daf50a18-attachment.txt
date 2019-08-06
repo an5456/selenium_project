@@ -1,0 +1,2 @@
+INFO:root:test_7
+INFO:root:module完成，清理数据

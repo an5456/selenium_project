@@ -1,0 +1,177 @@
+{
+  "uid" : "8893a965cd697ecc",
+  "name" : "test_if_login",
+  "fullName" : "test_home.TestHomework#test_if_login",
+  "historyId" : "8e1aa15c72c0044bbd68cb46f4656d31",
+  "time" : {
+    "start" : 1564884306029,
+    "stop" : 1564884306894,
+    "duration" : 865
+  },
+  "description" : "\n        社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n        ",
+  "descriptionHtml" : "<pre><code>    社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564884306027,
+      "stop" : 1564884306028,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开testerhome",
+      "time" : {
+        "start" : 1564884303668,
+        "stop" : 1564884306027,
+        "duration" : 2359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击社团",
+      "time" : {
+        "start" : 1564884306029,
+        "stop" : 1564884306088,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击霍格沃兹测试学院",
+      "time" : {
+        "start" : 1564884306088,
+        "stop" : 1564884306356,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "a[title='第十期_Selenium 第二周_20190801']",
+      "time" : {
+        "start" : 1564884306356,
+        "stop" : 1564884306666,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "断言访问被拒绝",
+      "time" : {
+        "start" : 1564884306666,
+        "stop" : 1564884306894,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "16142397d736d539",
+      "name" : "log",
+      "source" : "16142397d736d539.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "77f12ea598c6ecc",
+      "name" : "stdout",
+      "source" : "77f12ea598c6ecc.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f6205430000cbd0e",
+      "name" : "stderr",
+      "source" : "f6205430000cbd0e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "课后作业"
+  }, {
+    "name" : "story",
+    "value" : "社区访问霍格沃兹测试学院，断言未登录是被拒绝的"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomework"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37203-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8893a965cd697ecc.json",
+  "parameterValues" : [ ]
+}

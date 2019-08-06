@@ -1,0 +1,85 @@
+{
+  "uid" : "33f00ee838401de7",
+  "name" : "test_02",
+  "fullName" : "test_function#test_02",
+  "historyId" : "009b09508e788ab0fa805f42789680bc",
+  "time" : {
+    "start" : 1564493502091,
+    "stop" : 1564493502091,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+  "statusTrace" : "def test_02():\n        print (\"正在执行test2\")\n        x = \"hello\"\n>       assert hasattr(x,\"hello\")\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'hello')\n\ntest_function.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+    "statusTrace" : "def test_02():\n        print (\"正在执行test2\")\n        x = \"hello\"\n>       assert hasattr(x,\"hello\")\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'hello')\n\ntest_function.py:21: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3cb0e5bf0d420ca1",
+      "name" : "log",
+      "source" : "3cb0e5bf0d420ca1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2537701864d207f3",
+      "name" : "stdout",
+      "source" : "2537701864d207f3.txt",
+      "type" : "text/plain",
+      "size" : 105
+    }, {
+      "uid" : "5b409be55d1ac44",
+      "name" : "stderr",
+      "source" : "5b409be55d1ac44.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_function"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "84097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "33f00ee838401de7.json",
+  "parameterValues" : [ ]
+}

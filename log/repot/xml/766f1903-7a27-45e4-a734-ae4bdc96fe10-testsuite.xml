@@ -1,0 +1,191 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563591257866" stop="1563591257929">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563591257866" status="passed" stop="1563591257869">
+      <name>test_class.TestClass.test_01</name>
+      <attachments>
+        <attachment source="0eb5aa3a-aaff-4b8e-89c1-46b189717108-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="47cca148-5474-4ebd-a346-209b4a96f222-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257871" status="passed" stop="1563591257872">
+      <name>test_class.TestClass.test_s</name>
+      <attachments>
+        <attachment source="10513f74-f216-44b1-a757-495cf5c1d6fa-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="df9df208-7092-4cd5-b869-e1a12f76941a-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257873" status="passed" stop="1563591257874">
+      <name>test_class.TestA.test_001</name>
+      <attachments>
+        <attachment source="f097964a-bfa5-43c5-962b-b4cee8c331e4-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257875" status="failed" stop="1563591257910">
+      <name>test_demo.test_two</name>
+      <failure>
+        <message>AssertionError: assert 1 == 2</message>
+        <stack-trace>@pytest.mark.run(order=4)
+    def test_two():
+&gt;       assert 1 == 2
+E       assert 1 == 2
+
+testcase/test_demo.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257911" status="failed" stop="1563591257913">
+      <name>test_demo.test_one</name>
+      <failure>
+        <message>AssertionError: assert True == False</message>
+        <stack-trace>@pytest.mark.run(order=2)
+    def test_one():
+&gt;       assert True == False
+E       assert True == False
+
+testcase/test_demo.py:12: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257914" status="failed" stop="1563591257916">
+      <name>test_demo.test_three</name>
+      <failure>
+        <message>AssertionError: assert 5 == 6</message>
+        <stack-trace>@pytest.mark.run(order=3)
+    def test_three():
+&gt;       assert 5==6
+E       assert 5 == 6
+
+testcase/test_demo.py:17: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257917" status="failed" stop="1563591257920">
+      <name>test_demo.test_four</name>
+      <failure>
+        <message>AssertionError: assert 3 == 7</message>
+        <stack-trace>@pytest.mark.run(order=1)
+    def test_four():
+&gt;       assert 3==7
+E       assert 3 == 7
+
+testcase/test_demo.py:22: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257920" status="passed" stop="1563591257922">
+      <name>test_function.test_01</name>
+      <attachments>
+        <attachment source="0f4b6967-340a-470f-b39e-4d126b67e7a5-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="8f166379-c199-44a8-b10b-be61782402a8-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257923" status="failed" stop="1563591257926">
+      <name>test_function.test_02</name>
+      <failure>
+        <message>AssertionError: assert False
+ +  where False = hasattr('hello', 'hello')</message>
+        <stack-trace>def test_02():
+        print ("正在执行test2")
+        x = "hello"
+&gt;       assert hasattr(x,"hello")
+E       AssertionError: assert False
+E        +  where False = hasattr('hello', 'hello')
+
+testcase/test_function.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="206060c9-2ee3-41f6-858a-735768f0f5bd-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="ef7cb745-567e-42c6-b306-7db7dd852d57-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563591257928" status="passed" stop="1563591257929">
+      <name>test_function.test_add</name>
+      <attachments>
+        <attachment source="3d77ee17-14a9-449b-ad95-542104e0e3d3-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="caf8f839-a585-416a-9553-48d8a8e1853b-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="95243-MainThread"/>
+        <label name="host" value="anxiaodongdeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

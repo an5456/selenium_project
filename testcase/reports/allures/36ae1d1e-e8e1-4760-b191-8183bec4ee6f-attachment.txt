@@ -1,0 +1,4 @@
+setup_method:每个方法之前执行一次
+test_02
+teardown_method:每个方法之后执行一次
+teardown_class:每个类之后运行的方法

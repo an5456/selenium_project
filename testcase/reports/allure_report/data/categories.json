@@ -1,0 +1,121 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 3",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "baf66bfc756811b1",
+        "parentUid" : "3cf866d47a780b101bbe5ac274604b7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564493501525,
+          "stop" : 1564493501526,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3cf866d47a780b101bbe5ac274604b7c"
+    }, {
+      "name" : "AssertionError: assert 3 == 8",
+      "children" : [ {
+        "name" : "test_four",
+        "uid" : "6ab44a873a8a8b1f",
+        "parentUid" : "2a7fa8a9de7e9925445b3652190e1959",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564493501587,
+          "stop" : 1564493501587,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a7fa8a9de7e9925445b3652190e1959"
+    }, {
+      "name" : "AssertionError: assert (4 + 5) == 8",
+      "children" : [ {
+        "name" : "test_4[4-5-8]",
+        "uid" : "4e46422b02d772a6",
+        "parentUid" : "2c6fbb3abde27adbdaaaa959de216177",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564493501597,
+          "stop" : 1564493501597,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "4", "5", "8" ]
+      } ],
+      "uid" : "2c6fbb3abde27adbdaaaa959de216177"
+    }, {
+      "name" : "AssertionError: assert True == False",
+      "children" : [ {
+        "name" : "test_one",
+        "uid" : "600bf535e0398822",
+        "parentUid" : "5efe198c1d680cedba43db81800ab16b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564493501616,
+          "stop" : 1564493501616,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5efe198c1d680cedba43db81800ab16b"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+      "children" : [ {
+        "name" : "test_02",
+        "uid" : "33f00ee838401de7",
+        "parentUid" : "ace7e0bf337f226c562d6ea2b308e8a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564493502091,
+          "stop" : 1564493502091,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ace7e0bf337f226c562d6ea2b308e8a3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /topics.json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x110705ef0>: Failed to establish a new connection: [Errno 61] Connection refused',))",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "6e9b193bd94cb5de",
+        "parentUid" : "724ffacb3774d2806e1f5bf16f492bf5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564493501641,
+          "stop" : 1564493501641,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "38471098c71ac6b3",
+        "parentUid" : "724ffacb3774d2806e1f5bf16f492bf5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564493501873,
+          "stop" : 1564493501873,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "724ffacb3774d2806e1f5bf16f492bf5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

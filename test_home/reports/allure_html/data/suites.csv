@@ -1,0 +1,15 @@
+"Status","Name","Duration in ms","Description"
+"broken","test_demo.TestCase#test_1","3100",""
+"broken","test_home.TestHomework#test_error_username_password[an5456-23456]","10498","
+        错误的用户名密码登录
+        "
+"failed","test_home.TestHomework#test_search","568","
+        搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的
+        "
+"passed","test_home.TestHomework#test_new_info","4013","
+        最新发布的帖子浏览
+        "
+"passed","test_home.TestHomework#test_if_login","1150","
+        社区访问霍格沃兹测试学院，断言未登录是被拒绝的
+        "
+"passed","test_home.TestHomework#test_form_login","226",""

@@ -1,0 +1,119 @@
+{
+  "443c869dfcac140275b826a6a85a7f4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95adad6b5b1933d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564884629735,
+        "stop" : 1564884633748,
+        "duration" : 4013
+      }
+    } ]
+  },
+  "8e1aa15c72c0044bbd68cb46f4656d31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ee8a606e8b6d6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564884637756,
+        "stop" : 1564884638906,
+        "duration" : 1150
+      }
+    } ]
+  },
+  "1ec07a0e2938a874178f6762bb6d9988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5b13130d71234bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564884661927,
+        "stop" : 1564884662153,
+        "duration" : 226
+      }
+    } ]
+  },
+  "4e6d77116d170b3477459d189e759d2c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70347da9901a61c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '与 Bug 战斗的测试媛...撑起了互联网软件质量半边天' == '测试媛 · 搜索结果 · TesterHome'\n  - 与 Bug 战斗的测试媛女神们，撑起了互联网软件质量半边天\n  + 测试媛 · 搜索结果 · TesterHome",
+      "time" : {
+        "start" : 1564884657478,
+        "stop" : 1564884658046,
+        "duration" : 568
+      }
+    } ]
+  },
+  "59f27ca8caf3faf13b4e5398be07a863" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5765a6304f95c30c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.MoveTargetOutOfBoundsException: Message: move target out of bounds\n  (Session info: chrome=75.0.3770.142)",
+      "time" : {
+        "start" : 1564884156635,
+        "stop" : 1564884159735,
+        "duration" : 3100
+      }
+    } ]
+  },
+  "5b4a1e0c295d12a35394ba97e9245008" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45f218536c9cf523",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".alert-warning\"}\n  (Session info: chrome=75.0.3770.142)",
+      "time" : {
+        "start" : 1564884642954,
+        "stop" : 1564884653452,
+        "duration" : 10498
+      }
+    } ]
+  }
+}

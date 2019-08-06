@@ -1,0 +1,2 @@
+conftest.py                  8 INFO     http://localhost:8000/topics.json
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): localhost:8000

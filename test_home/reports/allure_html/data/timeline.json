@@ -1,0 +1,89 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "anxiaodongdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "37086-MainThread",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "5765a6304f95c30c",
+        "parentUid" : "3711ae8efd71eded68bc9f7a423219f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564884156635,
+          "stop" : 1564884159735,
+          "duration" : 3100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3711ae8efd71eded68bc9f7a423219f1"
+    }, {
+      "name" : "37428-MainThread",
+      "children" : [ {
+        "name" : "test_error_username_password[an5456-23456]",
+        "uid" : "45f218536c9cf523",
+        "parentUid" : "a4681e04c4251081ea8e268a7af2dd67",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564884642954,
+          "stop" : 1564884653452,
+          "duration" : 10498
+        },
+        "flaky" : true,
+        "parameters" : [ "23456", "'an5456'" ]
+      }, {
+        "name" : "test_search",
+        "uid" : "70347da9901a61c4",
+        "parentUid" : "a4681e04c4251081ea8e268a7af2dd67",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564884657478,
+          "stop" : 1564884658046,
+          "duration" : 568
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_new_info",
+        "uid" : "95adad6b5b1933d5",
+        "parentUid" : "a4681e04c4251081ea8e268a7af2dd67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564884629735,
+          "stop" : 1564884633748,
+          "duration" : 4013
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_if_login",
+        "uid" : "5ee8a606e8b6d6b",
+        "parentUid" : "a4681e04c4251081ea8e268a7af2dd67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564884637756,
+          "stop" : 1564884638906,
+          "duration" : 1150
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_form_login",
+        "uid" : "d5b13130d71234bf",
+        "parentUid" : "a4681e04c4251081ea8e268a7af2dd67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564884661927,
+          "stop" : 1564884662153,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4681e04c4251081ea8e268a7af2dd67"
+    } ],
+    "uid" : "90798661423fb2d2323aed12cbceaa57"
+  } ]
+}

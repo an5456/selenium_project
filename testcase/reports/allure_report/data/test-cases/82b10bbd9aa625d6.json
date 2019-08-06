@@ -1,0 +1,77 @@
+{
+  "uid" : "82b10bbd9aa625d6",
+  "name" : "test_01",
+  "fullName" : "test_function#test_01",
+  "historyId" : "135256202028682d7e5deb6a5d3e9451",
+  "time" : {
+    "start" : 1564493502088,
+    "stop" : 1564493502088,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b3adad4fcf28c91",
+      "name" : "log",
+      "source" : "8b3adad4fcf28c91.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c48f2dd1b8f50625",
+      "name" : "stdout",
+      "source" : "c48f2dd1b8f50625.txt",
+      "type" : "text/plain",
+      "size" : 105
+    }, {
+      "uid" : "34c8b3bd62941abf",
+      "name" : "stderr",
+      "source" : "34c8b3bd62941abf.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_function"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "84097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82b10bbd9aa625d6.json",
+  "parameterValues" : [ ]
+}

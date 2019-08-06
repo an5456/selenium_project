@@ -1,0 +1,97 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_1",
+    "uid" : "5765a6304f95c30c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1564884156635,
+      "stop" : 1564884159735,
+      "duration" : 3100
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "课后作业",
+    "children" : [ {
+      "name" : "最新发布帖子浏览",
+      "children" : [ {
+        "name" : "test_new_info",
+        "uid" : "95adad6b5b1933d5",
+        "parentUid" : "916ab045117e5072d8958c714d6b9a5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564884629735,
+          "stop" : 1564884633748,
+          "duration" : 4013
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "916ab045117e5072d8958c714d6b9a5f"
+    }, {
+      "name" : "社区访问霍格沃兹测试学院，断言未登录是被拒绝的",
+      "children" : [ {
+        "name" : "test_if_login",
+        "uid" : "5ee8a606e8b6d6b",
+        "parentUid" : "98446e0d614745e7884021fbcdeedfa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564884637756,
+          "stop" : 1564884638906,
+          "duration" : 1150
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98446e0d614745e7884021fbcdeedfa9"
+    }, {
+      "name" : "错误的用户名密码登录",
+      "children" : [ {
+        "name" : "test_error_username_password[an5456-23456]",
+        "uid" : "45f218536c9cf523",
+        "parentUid" : "f65f925f9d0adfe3b81b8b86d0bd8393",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564884642954,
+          "stop" : 1564884653452,
+          "duration" : 10498
+        },
+        "flaky" : true,
+        "parameters" : [ "23456", "'an5456'" ]
+      } ],
+      "uid" : "f65f925f9d0adfe3b81b8b86d0bd8393"
+    }, {
+      "name" : "搜索”测试媛“，找到成立的那个帖子",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "70347da9901a61c4",
+        "parentUid" : "a78620ee32a66ccd818cd8fbc2503370",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564884657478,
+          "stop" : 1564884658046,
+          "duration" : 568
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a78620ee32a66ccd818cd8fbc2503370"
+    }, {
+      "name" : "test_form_login",
+      "uid" : "d5b13130d71234bf",
+      "parentUid" : "9e3e02e4535fa6242d562fb2ba944ecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564884661927,
+        "stop" : 1564884662153,
+        "duration" : 226
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9e3e02e4535fa6242d562fb2ba944ecc"
+  } ]
+}

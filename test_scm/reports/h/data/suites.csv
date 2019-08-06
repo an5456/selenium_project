@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_foure#test_case_01","2","
+    出口流程可以正常创建
+    "
+"passed","test_foure#test_case_02","0","
+    入库流程可以正常创建
+    "

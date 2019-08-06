@@ -1,0 +1,66 @@
+{
+  "uid" : "8283b54c4e25f6b3",
+  "name" : "test_demo.test_one",
+  "fullName" : "testcase.test_demo.test_one",
+  "historyId" : "ff97941d1ad243503a1da2ade055afca",
+  "time" : {
+    "start" : 1563591257911,
+    "stop" : 1563591257913,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert True == False",
+  "statusTrace" : "@pytest.mark.run(order=2)\n    def test_one():\n>       assert True == False\nE       assert True == False\n\ntestcase/test_demo.py:12: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "95243-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_demo.test_one"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8283b54c4e25f6b3.json",
+  "parameterValues" : [ ]
+}

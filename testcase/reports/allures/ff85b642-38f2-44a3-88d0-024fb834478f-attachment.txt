@@ -1,0 +1,10 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55354/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55354
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55354 "POST /session HTTP/1.1" 200 744
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55354/session/1ea9a7d6-5274-ee49-8b72-2993f4b0bbbd/url {"url": "http://www.youdao.com"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55354 "POST /session/1ea9a7d6-5274-ee49-8b72-2993f4b0bbbd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55354/session/1ea9a7d6-5274-ee49-8b72-2993f4b0bbbd {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55354 "DELETE /session/1ea9a7d6-5274-ee49-8b72-2993f4b0bbbd HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

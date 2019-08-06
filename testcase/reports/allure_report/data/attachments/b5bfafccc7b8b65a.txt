@@ -1,0 +1,2 @@
+INFO:root:http://localhost:8000/topics.json
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8000

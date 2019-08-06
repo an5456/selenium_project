@@ -1,0 +1,85 @@
+{
+  "uid" : "6ab44a873a8a8b1f",
+  "name" : "test_four",
+  "fullName" : "test_demo#test_four",
+  "historyId" : "69e658f4c2ed6c6456389aaffd2e911c",
+  "time" : {
+    "start" : 1564493501587,
+    "stop" : 1564493501587,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 8",
+  "statusTrace" : "@pytest.mark.run(order=1)\n    def test_four():\n>       assert 3==8\nE       assert 3 == 8\n\ntest_demo.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 3 == 8",
+    "statusTrace" : "@pytest.mark.run(order=1)\n    def test_four():\n>       assert 3==8\nE       assert 3 == 8\n\ntest_demo.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6193fd50eb774ec",
+      "name" : "log",
+      "source" : "c6193fd50eb774ec.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e190272697743ff1",
+      "name" : "stdout",
+      "source" : "e190272697743ff1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b2286dbb95e80911",
+      "name" : "stderr",
+      "source" : "b2286dbb95e80911.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "84097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ab44a873a8a8b1f.json",
+  "parameterValues" : [ ]
+}

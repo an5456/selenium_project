@@ -1,0 +1,45 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "出口业务",
+    "children" : [ {
+      "name" : "创建出库单",
+      "children" : [ {
+        "name" : "test_case_01",
+        "uid" : "6547e9d8706c076b",
+        "parentUid" : "7936f91bf98f9c6471879a41bff3e226",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564500377947,
+          "stop" : 1564500377949,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7936f91bf98f9c6471879a41bff3e226"
+    } ],
+    "uid" : "9c4b3d38aec07b54f312ff3b2c240f7f"
+  }, {
+    "name" : "入库业务",
+    "children" : [ {
+      "name" : "创建入库单",
+      "children" : [ {
+        "name" : "test_case_02",
+        "uid" : "8c5daabe79ddcfa2",
+        "parentUid" : "ff42c22ca7ab70701d80792f13fde20d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564500377999,
+          "stop" : 1564500377999,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff42c22ca7ab70701d80792f13fde20d"
+    } ],
+    "uid" : "86ee06ee6ba71f5347774000344c8501"
+  } ]
+}

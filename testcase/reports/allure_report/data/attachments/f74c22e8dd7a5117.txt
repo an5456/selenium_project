@@ -1,0 +1,2 @@
+test_calc.py                32 INFO     TestA完成环境清理
+test_calc.py                23 INFO     module完成，清理数据

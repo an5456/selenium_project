@@ -1,0 +1,61 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.MoveTargetOutOfBoundsException: Message: move target out of bounds\n  (Session info: chrome=75.0.3770.142)",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "5765a6304f95c30c",
+        "parentUid" : "77cfa6a72da5b9f309150b2b288610b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564884156635,
+          "stop" : 1564884159735,
+          "duration" : 3100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77cfa6a72da5b9f309150b2b288610b9"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".alert-warning\"}\n  (Session info: chrome=75.0.3770.142)",
+      "children" : [ {
+        "name" : "test_error_username_password[an5456-23456]",
+        "uid" : "45f218536c9cf523",
+        "parentUid" : "75b012318c7740ea536d35f6f451d975",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564884642954,
+          "stop" : 1564884653452,
+          "duration" : 10498
+        },
+        "flaky" : true,
+        "parameters" : [ "23456", "'an5456'" ]
+      } ],
+      "uid" : "75b012318c7740ea536d35f6f451d975"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '与 Bug 战斗的测试媛...撑起了互联网软件质量半边天' == '测试媛 · 搜索结果 · TesterHome'\n  - 与 Bug 战斗的测试媛女神们，撑起了互联网软件质量半边天\n  + 测试媛 · 搜索结果 · TesterHome",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "70347da9901a61c4",
+        "parentUid" : "bbf475f5eab984893262235a75af0f4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564884657478,
+          "stop" : 1564884658046,
+          "duration" : 568
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbf475f5eab984893262235a75af0f4a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

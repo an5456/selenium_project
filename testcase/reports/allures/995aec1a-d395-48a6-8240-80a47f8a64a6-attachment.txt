@@ -1,0 +1,3 @@
+test_calc.py                47 INFO     TestB初始化
+test_calc.py                62 INFO     test_6
+test_calc.py                23 INFO     module完成，清理数据

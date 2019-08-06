@@ -1,0 +1,66 @@
+{
+  "uid" : "7bd707d77bf4c2b2",
+  "name" : "test_demo.test_four",
+  "fullName" : "testcase.test_demo.test_four",
+  "historyId" : "cdb6c364b3b17f9c62f2968867b87325",
+  "time" : {
+    "start" : 1563591257917,
+    "stop" : 1563591257920,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 7",
+  "statusTrace" : "@pytest.mark.run(order=1)\n    def test_four():\n>       assert 3==7\nE       assert 3 == 7\n\ntestcase/test_demo.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "95243-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_demo.test_four"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7bd707d77bf4c2b2.json",
+  "parameterValues" : [ ]
+}

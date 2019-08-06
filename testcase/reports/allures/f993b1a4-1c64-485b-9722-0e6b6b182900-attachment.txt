@@ -1,0 +1,3 @@
+INFO:root:TestB初始化
+INFO:root:test_6
+INFO:root:module完成，清理数据

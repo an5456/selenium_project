@@ -1,0 +1,80 @@
+{
+  "uid" : "48367bbefe837494",
+  "name" : "test_6",
+  "fullName" : "test_calc.TestB#test_6",
+  "historyId" : "08a99d4e3e9997924b825dccfce9c979",
+  "time" : {
+    "start" : 1564493501613,
+    "stop" : 1564493501614,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "337d421fe718d407",
+      "name" : "log",
+      "source" : "337d421fe718d407.txt",
+      "type" : "text/plain",
+      "size" : 169
+    }, {
+      "uid" : "9e3a4600cc3ee99f",
+      "name" : "stdout",
+      "source" : "9e3a4600cc3ee99f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "8aa8a9a5129565d2",
+      "name" : "stderr",
+      "source" : "8aa8a9a5129565d2.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "84097-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48367bbefe837494.json",
+  "parameterValues" : [ ]
+}

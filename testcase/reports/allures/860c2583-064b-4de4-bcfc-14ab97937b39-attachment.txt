@@ -1,0 +1,3 @@
+setup_function():每个方法之前执行
+正在执行test_add()
+teardown_function():每个方法之后执行

@@ -1,0 +1,3 @@
+setup_module:在模块之前运行的方法
+setup_class:每个类之前执行一次
+setup_method:每个方法之前执行一次

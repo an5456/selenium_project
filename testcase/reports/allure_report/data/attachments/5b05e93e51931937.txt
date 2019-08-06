@@ -1,0 +1,2 @@
+test_calc.py                69 INFO     test_7
+test_calc.py                23 INFO     module完成，清理数据

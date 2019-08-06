@@ -1,0 +1,183 @@
+{
+  "uid" : "e93d0fab4eefd3d4",
+  "name" : "test_if_login",
+  "fullName" : "test_home.TestHomework#test_if_login",
+  "historyId" : "8e1aa15c72c0044bbd68cb46f4656d31",
+  "time" : {
+    "start" : 1564884166745,
+    "stop" : 1564884167890,
+    "duration" : 1145
+  },
+  "description" : "\n        社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n        ",
+  "descriptionHtml" : "<pre><code>    社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。' in '访问被拒绝，你可能没有权限或未登录。'",
+  "statusTrace" : "self = <test_home.test_home.TestHomework object at 0x10faa8c50>\n\n    @allure.story(\"社区访问霍格沃兹测试学院，断言未登录是被拒绝的\")\n    def test_if_login(self):\n        \"\"\"\n            社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n            \"\"\"\n        with allure.step(\"点击社团\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"#main-nav-menu li:nth-child(4)\").click()\n    \n        with allure.step(\"点击霍格沃兹测试学院\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"a[data-name='霍格沃兹测试学院']\").click()\n        with allure.step(\"a[title='第十期_Selenium 第二周_20190801']\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"a[title='第十期_Selenium 第二周_20190801']\").click()\n    \n        with allure.step(\"断言访问被拒绝\"):\n            error_info = self.driver.find_element(By.CSS_SELECTOR, '.container .alert').text\n>           assert error_info in '访问被拒绝，你可能没有权限或未登录。'\nE           AssertionError: assert '转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。' in '访问被拒绝，你可能没有权限或未登录。'\n\ntest_home.py:71: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1564884166745,
+      "stop" : 1564884166745,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。' in '访问被拒绝，你可能没有权限或未登录。'",
+    "statusTrace" : "self = <test_home.test_home.TestHomework object at 0x10faa8c50>\n\n    @allure.story(\"社区访问霍格沃兹测试学院，断言未登录是被拒绝的\")\n    def test_if_login(self):\n        \"\"\"\n            社区访问霍格沃兹测试学院，断言未登录是被拒绝的\n            \"\"\"\n        with allure.step(\"点击社团\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"#main-nav-menu li:nth-child(4)\").click()\n    \n        with allure.step(\"点击霍格沃兹测试学院\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"a[data-name='霍格沃兹测试学院']\").click()\n        with allure.step(\"a[title='第十期_Selenium 第二周_20190801']\"):\n            self.driver.find_element(By.CSS_SELECTOR, \"a[title='第十期_Selenium 第二周_20190801']\").click()\n    \n        with allure.step(\"断言访问被拒绝\"):\n            error_info = self.driver.find_element(By.CSS_SELECTOR, '.container .alert').text\n>           assert error_info in '访问被拒绝，你可能没有权限或未登录。'\nE           AssertionError: assert '转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。' in '访问被拒绝，你可能没有权限或未登录。'\n\ntest_home.py:71: AssertionError",
+    "steps" : [ {
+      "name" : "打开testerhome",
+      "time" : {
+        "start" : 1564884166390,
+        "stop" : 1564884166744,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击社团",
+      "time" : {
+        "start" : 1564884166746,
+        "stop" : 1564884166796,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击霍格沃兹测试学院",
+      "time" : {
+        "start" : 1564884166796,
+        "stop" : 1564884167136,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "a[title='第十期_Selenium 第二周_20190801']",
+      "time" : {
+        "start" : 1564884167136,
+        "stop" : 1564884167461,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "断言访问被拒绝",
+      "time" : {
+        "start" : 1564884167461,
+        "stop" : 1564884167890,
+        "duration" : 429
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '转载文章时务必注明原作者及原始链接，并注明「发表于 TesterHome 」，并不得对作品进行修改。' in '访问被拒绝，你可能没有权限或未登录。'\n",
+      "statusTrace" : "  File \"/Users/anxiaodong/PycharmProjects/sty_env/test_home/test_home.py\", line 71, in test_if_login\n    assert error_info in '访问被拒绝，你可能没有权限或未登录。'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "210ffb314f445634",
+      "name" : "log",
+      "source" : "210ffb314f445634.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3c58404c23edf104",
+      "name" : "stdout",
+      "source" : "3c58404c23edf104.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "baf980e68a5fb772",
+      "name" : "stderr",
+      "source" : "baf980e68a5fb772.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "课后作业"
+  }, {
+    "name" : "story",
+    "value" : "社区访问霍格沃兹测试学院，断言未登录是被拒绝的"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomework"
+  }, {
+    "name" : "host",
+    "value" : "anxiaodongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37086-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e93d0fab4eefd3d4.json",
+  "parameterValues" : [ ]
+}

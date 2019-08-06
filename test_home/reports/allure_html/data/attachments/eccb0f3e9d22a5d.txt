@@ -1,0 +1,272 @@
+INFO:root:True
+INFO:root:378d0701-b9f4-4c69-8c58-923a1dc43c92
+INFO:root:input
+INFO:root:
+INFO:root:{'x': 230, 'y': 265}
+INFO:root:{'height': 36, 'width': 440}
+INFO:root:
+INFO:root:<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="移动测试,游戏测试,性能测试,软件测试,软件测试社区,软件测试资料,软件测试工具,软件测试报告,软件测试方法,自动化测试,软件测试招聘,">
+  <meta name="description" content="TesterHome软件测试社区，人气最旺的软件测试技术门户，提供软件测试社区交流，测试沙龙。">
+  <title>登录 · TesterHome</title>
+  <link rel="icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/ios-icon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="shortcut icon" href="/assets/big_logo-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+
+  <!-- http://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta content="True" name="HandheldFriendly">
+  <link rel="alternate" type="application/rss+xml" title="订阅最新帖" href="https://testerhome.com/topics/feed">
+  <link rel="stylesheet" media="screen" href="/assets/front-15185e3983cd68677b04329670c6a6b7fedecb51f1b39ff7fac48180c1850eaa.css" data-turbolinks-track="reload">
+  
+  
+  <meta name="action-cable-url" content="/cable">
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="r45UenIeT2+RJ4HK38YiUi8QEnqw6BdodfIEr5zGA22TRj3KoO67g05wmlNk/Wt8r1eTs/OE83bfF61lPKLzTA==">
+      <meta itemprop="name" content="TesterHome">
+    <meta itemprop="image" content="//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLAH8YXbXMDFib2SnIqhac60vw3BspyLd0TO82PiaJ2xfbvXynrocic7ajbCGribAic88wgc/">
+
+<style type="text/css">
+
+.blog-description{
+  text-align: left;
+  padding: 18px;
+}
+.blog-description:first-letter {
+font-size : 200%;
+font-weight : bold;
+float : left;
+margin-right: 3px;
+}
+
+/*
+.new-topic:before {
+  content:url("https://testerhome.com/uploads/photo/2019/d80c7d7c-7727-45b2-a98d-2c87a68c65e8.png");
+  position: absolute;
+  left:60%;
+  margin-top:-35px;
+}
+*/
+</style>
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/assets/app-e7ee20cbaa2170904b7e03e062de44de56ebda1ffa14cf1c89a73ad4234f1066.js" data-turbolinks-track="reload"></script>
+  
+</head>
+<body class="page-sessions" data-controller-name="sessions">
+
+    <div id="welcome-page" class="hide-page">
+  <div style="background-image: url(https://testerhome.com/uploads/photo/2019/3cc16fc5-12e3-4be7-963d-2a6144191e4c.jpg); background-position: top center; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; height:100%">
+</div>
+  <div class="welcome-action-button">
+    <div class="btn-group">
+      <a id="welcome-page-skip" type="button" class="btn btn-primary">跳过</a>
+    </div>
+    <div class="btn-group">
+      <a href="https://testerhome.com/topics/19664" type="button" class="btn btn-info">查看详情</a>
+    </div>
+  </div>
+  </div>
+
+  <div id="main-page">
+<div class="header">
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header" id="navbar-header" data-turbolinks-permanent="">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+          <span class="sr-only">Toggle</span>
+          <i class="fa fa-reorder"></i>
+        </button>
+        <a href="/" class="navbar-brand"><b>TesterHome</b></a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        
+        <div id="main-nav-menu">
+  <ul class="nav navbar-nav">
+    <li class=""><a href="/topics">社区</a></li><li class=""><a href="/bugs">Bug 曝光台</a></li><li class=""><a href="/questions">问答</a></li><li class=""><a href="/teams">社团</a></li><li class=""><a href="/jobs">招聘</a></li><li class=""><a href="/wiki">Wiki</a></li><li class=""><a href="/opensource_projects">开源项目<span class="badge-new">新</span></a></li>
+    
+  </ul>
+</div>
+      </div>
+      <ul class="nav user-bar navbar-nav navbar-right">
+  <li><a href="/account/sign_up">注册</a></li>
+  <li><a href="/account/sign_in">登录</a></li>
+</ul>
+
+<ul class="nav navbar-nav user-bar navbar-right">
+  <li class="nav-search hidden-xs hidden-sm hidden-md">
+    <form class="navbar-form form-search active" action="/search" method="GET">
+      <div class="form-group">
+        <input class="form-control" name="q" type="text" value="" placeholder="搜索本站内容">
+      </div>
+      <i class="fa btn-search fa-search"></i>
+    </form>
+  </li>
+
+</ul>
+
+    </div>
+  </nav>
+    <div id="corner" class="">
+      <a id="cornertip" href="">
+        <div id="c-content">
+          <div id="c-button">欢迎</div>
+        </div>
+      </a>
+    </div>
+</div>
+
+
+
+<div id="main" class="main-container container">
+  
+  
+  
+<div class="row">
+  <div class="col-md-5 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">登录</div>
+      <div class="panel-body">
+        <form class="simple_form " id="new_user" novalidate="novalidate" action="/account/sign_in" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓">
+        <div class="form-group">
+          <input type="email" class="form-control input-lg" placeholder="用户名 / Email" name="user[login]" id="user_login">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control input-lg" placeholder="密码" name="user[password]" id="user_password">
+        </div>
+
+        <div class="from-group checkbox">
+            <label for="user_remember_me">
+              <input name="user[remember_me]" type="hidden" value="0"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me"> 记住登录状态（60 天）
+            </label>
+        </div>
+        <div class="form-actions">
+            <input type="submit" name="commit" value="登录" class="btn btn-primary btn-lg btn-block" data-disable-with="正在登录">
+        </div>
+</form>      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">用其他平台的帐号登录</div>
+      <ul class="list-group">
+        <li class="list-group-item"><a class="btn btn-default btn-lg btn-block" href="/account/auth/github"><i class="fa fa-github"></i> GitHub</a> </li>
+      </ul>
+    </div>
+
+    <div class="panel panel-default">
+      <ul class="list-group">
+
+    <li class="list-group-item"><a href="/account/sign_up">注册</a></li>
+
+    <li class="list-group-item"><a href="/account/password/new">忘记了密码?</a></li>
+
+    <li class="list-group-item"><a href="/account/confirmation/new">未收到激活邮件?</a></li>
+
+    <li class="list-group-item"><a href="/account/unlock/new">未收到解锁邮件?</a></li>
+</ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#new_user').on('ajax:error', function(event, xhr, status, error) {
+    App.alert(xhr.responseText, '#main');
+  })
+</script>
+
+</div>
+
+  <footer class="footer" id="footer" data-turbolinks-permanent="">
+    <div class="container">
+      
+
+<div class="row">
+  <div class="col-sm-9">
+    <div class="media">
+      <div class="media-left">
+        <img src="https://testerhome.com/uploads/photo/2016/274e7ebc8ad0db0b7e718fceea3628a9.png!large" style="width:48px;">
+      </div>
+      <div class="media-body">
+
+        <div class="links">
+          <a href="https://testerhome.com/wiki/about">关于</a> / 
+          <a href="https://testerhome.com/users">活跃用户</a> / 
+          <a href="http://test-china.org/" target="_blank">中国移动互联网测试技术大会</a> / 
+          <a href="/topics/node13">反馈</a> / 
+          <a href="https://github.com/testerhome">Github</a> / 
+          <a href="https://testerhome.com//api-doc/">API</a> /  
+          <a href="/wiki/spreadtesterhome">帮助推广</a>
+
+        </div>
+        <div class="copyright" style="font-size:14px; color:#9CA4A9;margin-top:0px;margin-bottom:5px">
+          TesterHome 移动测试社区，由众多移动测试工作者维护，致力于推进国内测试技术。Inspired by RubyChina
+        </div>
+<div class="links" data-no-turbolink="">
+<span style="font-size:14px; color:#666;">友情链接</span><span style="margin-left:5px">
+          <a style="color:#317DDA;" href="http://wetest.qq.com/?from=links_testerhome" target="_blank">WeTest腾讯质量开放平台</a> / 
+          <a style="color:#317DDA;" href="http://www.infoq.com/cn" target="_blank">InfoQ</a> / 
+          <a style="color:#317DDA;" href="http://www.testtao.com/portal.php" target="_blank">测试之道</a> / 
+          <a style="color:#317DDA;" href="https://www.testwo.com/" target="_blank">测试窝</a> / 
+          <a style="color:#317DDA;" href="http://tieba.baidu.com/f?ie=utf-8&amp;kw=%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95&amp;fr=search" target="_blank">百度测试吧</a> /
+          <a style="color:#317DDA;" href="http://www.itdks.com/" target="_blank">IT大咖说</a>
+</span>
+    </div>
+        <div class="links" style="margin-top:0px" data-no-turbolink="">
+          <a href="?locale=zh-CN" rel="nofollow">简体中文</a> / <a href="?locale=zh-TW" rel="nofollow">正體中文</a> / <a href="?locale=en" rel="nofollow">English</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 friends">
+    <a href="http://www.ucloud.cn/?utm_source=zanzhu&amp;utm_campaign=testerhome&amp;utm_medium=display&amp;utm_content=yejiao&amp;ytag=testerhome_logo" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="本站服务器由 Ucloud 赞助"><img src="https://testerhome.com/photo/2016/4ce97c93f9433f654884c4839408327a.png" style="height:28px"></a>
+
+    <a href="http://www.sendcloud.net/" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="邮件服务由 SendCloud 赞助"><img src="https://testerhome.com/uploads/photo/2017/0f9fb5db-2472-4430-9f7e-6c051f28c3c9.png" style="height:28px"></a>
+
+  </div>
+</div>
+
+
+
+    </div>
+  </footer>
+
+<script type="text/javascript" data-turbolinks-eval="false">
+    App.root_url = "https://testerhome.com/";
+    App.asset_url = "";
+    App.twemoji_url = "https://twemoji.maxcdn.com/2";
+    App.locale = "zh-CN";
+</script>
+
+<script>
+    ga('create', 'UA-45014075-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+<div class="zoom-overlay"></div>
+</div>
+
+
+</body></html>
+INFO:root:登录 · TesterHome
