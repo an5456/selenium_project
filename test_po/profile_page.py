@@ -9,7 +9,7 @@ from test_po.basepage import BasePage
 class ProfilePage(BasePage):
 
     def update(self):
-        WebDriverWait(self.driver, 10, 1, ignored_exceptions="TimeoutException").until(
+        WebDriverWait(self._driver, 10, 1, ignored_exceptions="TimeoutException").until(
             expected_conditions.visibility_of_element_located((By.CSS_SELECTOR, ".member_colRight_operationBar>a:first-child")))
         self.click_js(By.CSS_SELECTOR, ".member_colRight_operationBar>a:first-child")
         # self.driver.find_element(By.CSS_SELECTOR, ".member_colRight_operationBar>a:first-child")

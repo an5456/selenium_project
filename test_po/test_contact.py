@@ -15,18 +15,19 @@ class TestContact:
 
     def teardown(self):
         time.sleep(4)
-        # self.work.quit()
+        self.work.quit()
 
     # def test_add_member_002(self):
     #     self.contact.add_member("wanglili", "zhangxiao", "s34567", "17779867654")
     #     assert self.contact.get_tips() == "ok"
     #
-    # def test_add_member_001(self):
-    #     self.contact.add_member("张三", "网速", "s34567", "17779867654")
-    #     assert self.contact.get_tips() == "ok"
+    def test_add_member_001(self):
+        self.contact.add_member("张三", "网速", "s34567", "17779867654")
+        assert self.contact.get_tips() == "ok"
 
-    def test_update_profile(self):
-        self.contact.search("zhang").update()
+
+    # def test_update_profile(self):
+    #     self.contact.search("zhang").update()
     # def test_delete(self):
     #     uuid = str(time())
     #     self.contact\
