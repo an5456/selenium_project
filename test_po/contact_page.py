@@ -63,9 +63,11 @@ class ContactPage(BasePage):
         # 输入电话
         self.find(*self._mobile).send_keys(moblie)
         # 点击取消按钮
-        self.find(*self._cancel).click()
+        self.click_element(self._cancel)
+        # self.find(*self._cancel).click()
         # 输入别名
-        self.find(*self._leave).click()
+        self.click_element(self._leave)
+        # self.find(*self._leave).click()
 
     def delete_member(self):
         pass

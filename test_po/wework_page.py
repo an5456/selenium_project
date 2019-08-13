@@ -8,9 +8,10 @@ class Wework:
         # self.driver.maximize_window()
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame#contacts")
         cookies = {
-            "wwrtx.vst": "iYU0NMdemQDne6O7W6MCyY2xIJ3TPeJ9q1HH64OBUFiW2tEW2RJxS9ZxMfqUzVkU_l8QVIbHM89NNuKu8pc7K10I0eYkR7PcAXmId_m8YdleHXMqkeous3mAfly8rE7WncY9LINHEMHdjPA4PDjDhO5WMEoqyIXA0zDsXUQB0hX_62Zg7v5l7SYGmlnuRuBaJMzbkadlu0Pp4PNtMBZTOAWpWHq6QN8yT01I742E0_8VxrJM-MW9u_UOWdE6Ky5krPIZsCgr0-30TwLSLfeJEg",
-            "wwrtx.d2st": "a7436873",
-            "wwrtx.sid": "5KLjjmW-aMstJ0AquQESE-rB5qRvaiQ947Eq06SECTPm-T-BRQye8mnN4VArHPKf",
+            "wwrtx.vst": "hzYgg2X3hEDNOkPvEqTgXRd6bAz1kGCAqGxDOxKE4luzj7UzTmVmNJWS01Dh3tfNgljfPLqJrvEDrFKozZy6PtJguGXnV6QmbRVUfO6-d2CpBJDePFOeyfMGpi2sSQeyHHPYRBCEEDBa3outSFKYj98Q1VQCeNzqwRTcekD8kau78Gt6MeyK1dT0m3LR-y49rnnH_Unt-nQKnapQg_fHkMtjOBnbZIN7Sq4gRAUojAeN6AB_0b4NLPuAejAIGoBeEGFr3dIQ0L6GHN-DamhKXw",
+            "wwrtx.d2st": "a8797088",
+            "wwrtx.sid": "5KLjjmW-aMstJ0AquQESE9gAivE3x7ofcNRwgXg15XS0WVCsWPEXjFptD-9mL7M3",
+
             "wwrtx.ltype": "1",
             "wxpay.corpid": "1970324954080438",
             "wxpay.vid": "1688851903656484",
