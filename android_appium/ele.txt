@@ -1,0 +1,6 @@
+xpath:定位
+      //*[contains(@resource-id,'id/user_profile_icon' ) and contains(@class,'mageView')]
+      //*[@text='基金' and contains(@resource-id,'button')]
+      //*[@text='基金' and @index='1']
+      (//*[@text='基金'])[1]
+      //*[contains(@resource-id,'buttons_container')]//*[@text='基金']  父子关系定位

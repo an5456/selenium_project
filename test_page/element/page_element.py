@@ -36,3 +36,27 @@ class PageElement:
     # 离开此页
     def get_leave_element(self):
         return self.fd.get_element("leave_element")
+
+    # 座机
+    def get_telephone_element(self):
+        return self.fd.get_element("telephone_element")
+
+    # 邮箱
+    def get_email_element(self):
+        return self.fd.get_element("email_element")
+
+    # 地址
+    def get_address_element(self):
+        return self.fd.get_element("address_element")
+
+    # 保存
+    def get_save_element(self):
+        return self.fd.get_element("save_element")
+
+    # 添加成员tr标签
+    def get_tr_element(self):
+        return self.fd.get_element("tr_element")
+
+    # 搜索
+    def get_search_element(self):
+        return self.fd.get_element("search_element")

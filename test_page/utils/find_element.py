@@ -12,11 +12,8 @@ class FindElement:
     def get_element(self, key):
         read_ini = ReadIni()
         data = read_ini.get_value(key)
-        print(data)
         by = data.split(">")[0]
-        print(by)
         value = data.split(">")[1]
-        print(value)
         try:
             if by == 'id':
                 return (By.ID, value)

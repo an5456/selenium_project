@@ -18,9 +18,9 @@ class BaseDriver:
             self.url = url
         self.driver.get(self.url)
         cookies = {
-            "wwrtx.vst": "hzYgg2X3hEDNOkPvEqTgXRd6bAz1kGCAqGxDOxKE4luzj7UzTmVmNJWS01Dh3tfNgljfPLqJrvEDrFKozZy6PtJguGXnV6QmbRVUfO6-d2CpBJDePFOeyfMGpi2sSQeyHHPYRBCEEDBa3outSFKYj98Q1VQCeNzqwRTcekD8kau78Gt6MeyK1dT0m3LR-y49rnnH_Unt-nQKnapQg_fHkMtjOBnbZIN7Sq4gRAUojAeN6AB_0b4NLPuAejAIGoBeEGFr3dIQ0L6GHN-DamhKXw",
-            "wwrtx.d2st": "a8797088",
-            "wwrtx.sid": "5KLjjmW-aMstJ0AquQESE9gAivE3x7ofcNRwgXg15XS0WVCsWPEXjFptD-9mL7M3",
+            "wwrtx.vst": "0I8KvIgHYceYjH-NA82mhi60VKtGb4iw0OU_w_lTW2AQXGMYxJtn6bftZlU-USVmYEG3RmbGJ13-cIIeVvQbBeJe-uIZQzzTSsno4ktmaSO2N0je29uk13ldMJbkOKI67PPf6_Dq8AYHtuhjpwQzdg6Fnpq9zgacxh82XskI2pzXe2lG-VdH3PB2yJ-HFrnZRacyCvnvKq7jYZElX5z7IInhfUtYAqQPBxn1xZ9H4AjO3_b_PgDuQ-b-KVbIaR83Zs0oaCyGFGOPsg50SuUqcA",
+            "wwrtx.d2st": "a2909300",
+            "wwrtx.sid": "5KLjjmW-aMstJ0AquQESE54nGlRk2p9e3SrKpCjYcwdviLbpBwiqrk6LBOF7LIUw",
 
             "wwrtx.ltype": "1",
             "wxpay.corpid": "1970324954080438",
@@ -32,4 +32,4 @@ class BaseDriver:
 
 
 if __name__ == '__main__':
-    s = BaseDriver("chrome",url="https://work.weixin.qq.com/wework_admin/frame#apps")
+    s = BaseDriver("chrome", url="https://work.weixin.qq.com/wework_admin/frame#apps")

@@ -8,7 +8,6 @@ class ReadIni:
         if file_name is None:
             file = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
             file_name = file + "/data/element.ini"
-            print(file_name)
         else:
             self.file_name = file_name
 

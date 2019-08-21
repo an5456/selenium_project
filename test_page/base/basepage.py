@@ -23,7 +23,7 @@ class BasePage:
 
     # 使用js点击
     def click_by_js(self, by, locator):
-        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable((by, locator)))
+        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located((by, locator)))
         self.driver.execute_script("arguments[0].click();", self.driver.find_element(by, locator))
 
     # 页面点击
