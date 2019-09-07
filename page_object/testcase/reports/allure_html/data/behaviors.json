@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "首页测试",
+    "children" : [ {
+      "name" : "搜索股票",
+      "children" : [ {
+        "name" : "test_search_us",
+        "uid" : "94c874d453209b4b",
+        "parentUid" : "beff5f0c85a298baeb5071c8b243f717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566488147547,
+          "stop" : 1566488155192,
+          "duration" : 7645
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "beff5f0c85a298baeb5071c8b243f717"
+    } ],
+    "uid" : "830984583063d73ef6940169959a6880"
+  } ]
+}
