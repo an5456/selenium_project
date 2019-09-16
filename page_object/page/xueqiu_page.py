@@ -4,23 +4,26 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from page_object.page.basepage import BasePage
+from page_object.page.profile.profile_page import ProfilePage
 from page_object.page.stock.search_page import SearchPage
 from page_object.page.trade.trade_page import TradePage
 
 
 class XueQiuPage(BasePage):
     driver = None
-    app = "com.xueqiu.android"
-    acticity = ".view.WelcomeActivityAlias"
+    _app = "com.xueqiu.android"
+    _acticity = ".view.WelcomeActivityAlias"
+    _profile_icon = (By.ID, "user_profile_icon")
 
     def first_start(self):
         caps = {}
         caps["platformName"] = "android"
         caps["deviceName"] = "hogwarts"
-        caps["appPackage"] = self.app
-        caps["appActivity"] = self.acticity
+        caps["appPackage"] = self._app
+        caps["appActivity"] = self._acticity
         caps['autoGrantPermissions'] = True
         caps['chromedriverExecutable'] = '/workspace/chrmedriver69/'
+        caps['noReset'] = True
         # caps['unicodeKeyboard']= True
         # caps['resetKeyboard']= True
         caps['automationName'] = 'uiautomator2'
@@ -40,8 +43,8 @@ class XueQiuPage(BasePage):
             self.first_start()
         else:
             print("lanch")
-            self.driver.start_activity(self.app, self.acticity)
-        self.find((By.ID, "user_profile_icon"))
+            self.driver.start_activity(self._app, self._acticity)
+        self.find(self._profile_icon)
         # WebDriverWait(self.driver, 60).until(
         #     expected_conditions.visibility_of_element_located((By.ID, "user_profile_icon")))
 
@@ -53,6 +56,10 @@ class XueQiuPage(BasePage):
     def goto_trade(self):
         self.driver.find_element(By.XPATH, "//*[@text='交易']").click()
         return TradePage(self.driver)
+
+    def goto_profile(self):
+        self.find(self._profile_icon).click()
+        return ProfilePage(self.driver)
 
 
 if __name__ == '__main__':

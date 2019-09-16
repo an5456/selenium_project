@@ -17,7 +17,7 @@ class BasePage:
     def find(self, locator) -> WebElement:
         # todo: 处理弹框
         try:
-            self.driver.find_element(*locator)
+            return self.driver.find_element(*locator)
         except Exception as e:
             if self.max > 4:
                 raise e
@@ -28,4 +28,24 @@ class BasePage:
                     # WebDriverWait(self.driver, 40).until(
                     #     expected_conditions.visibility_of_element_located(*blak))
                     elements[0].click()
-            self.find(locator)
+            return self.find(locator)
+
+    # 返回元素的大小
+    def size(self, locator):
+        return len(self.driver.find_elements(*locator))
+
+    @classmethod
+    def profile_id(cls, value):
+        return (By.ID, value)
+
+    # 通过xpath定位
+    @classmethod
+    def text(cls, value):
+        return (By.XPATH, "//*[@text='%s']" % value)
+
+    # 获取弹框提示信息
+    @classmethod
+    def toast_locator(cls):
+        return (By.XPATH, "//*[@class='android.widget.Toast']")
+# 0957f0726e4545079cba03d613705655514aaa8485744c3c92ff03a250ee6403
+        a= False
