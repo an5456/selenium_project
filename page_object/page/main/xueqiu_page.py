@@ -1,7 +1,6 @@
 from appium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
+import logging
 
 from page_object.page.basepage import BasePage
 from page_object.page.profile.profile_page import ProfilePage
@@ -15,6 +14,7 @@ class XueQiuPage(BasePage):
     _acticity = ".view.WelcomeActivityAlias"
     _profile_icon = (By.ID, "user_profile_icon")
 
+
     def first_start(self):
         caps = {}
         caps["platformName"] = "android"
@@ -27,7 +27,6 @@ class XueQiuPage(BasePage):
         # caps['unicodeKeyboard']= True
         # caps['resetKeyboard']= True
         caps['automationName'] = 'uiautomator2'
-
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(10)
         XueQiuPage.driver = self.driver
@@ -40,6 +39,7 @@ class XueQiuPage(BasePage):
     def __init__(self):
         if XueQiuPage.driver is None:
             print("diyici chushihua")
+            self.logger.info("第一启动")
             self.first_start()
         else:
             print("lanch")
@@ -62,5 +62,4 @@ class XueQiuPage(BasePage):
         return ProfilePage(self.driver)
 
 
-if __name__ == '__main__':
-    s = XueQiuPage()
+

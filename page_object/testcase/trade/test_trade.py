@@ -1,5 +1,5 @@
-
-from page_object.page.xueqiu_page import XueQiuPage
+from logs.log_one.use_log import GetLog
+from page_object.page.main.xueqiu_page import XueQiuPage
 
 
 class TestTrade:

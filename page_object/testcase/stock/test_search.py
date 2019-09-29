@@ -2,7 +2,7 @@ import allure
 import pytest
 from hamcrest import assert_that, close_to
 
-from page_object.page.xueqiu_page import XueQiuPage
+from page_object.page.main.xueqiu_page import XueQiuPage
 
 
 @allure.feature("首页测试")

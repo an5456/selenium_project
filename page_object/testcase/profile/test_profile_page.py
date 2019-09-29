@@ -1,6 +1,4 @@
-from unittest import TestCase
-
-from page_object.page.xueqiu_page import XueQiuPage
+from page_object.page.main.xueqiu_page import XueQiuPage
 
 
 class TestProfile:

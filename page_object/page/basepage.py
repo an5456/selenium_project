@@ -1,8 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
+import logging
 
 
 class BasePage:
@@ -17,6 +16,7 @@ class BasePage:
     def find(self, locator) -> WebElement:
         # todo: 处理弹框
         try:
+            logging.info('定位元素：' + str(locator))
             return self.driver.find_element(*locator)
         except Exception as e:
             if self.max > 4:
@@ -41,11 +41,11 @@ class BasePage:
     # 通过xpath定位
     @classmethod
     def text(cls, value):
+
         return (By.XPATH, "//*[@text='%s']" % value)
 
     # 获取弹框提示信息
     @classmethod
     def toast_locator(cls):
+
         return (By.XPATH, "//*[@class='android.widget.Toast']")
-# 0957f0726e4545079cba03d613705655514aaa8485744c3c92ff03a250ee6403
-        a= False

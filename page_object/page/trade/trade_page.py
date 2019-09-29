@@ -1,6 +1,3 @@
-import time
-
-from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
@@ -10,7 +7,7 @@ from page_object.page.basepage import BasePage
 
 class TradePage(BasePage):
     _danjuan_open = (By.XPATH, '//*[@text="已有蛋卷基金账户登录"]')
-    #"//*[@text='交易']"
+    # "//*[@text='交易']"
     _danjuan_menu = (By.ID, "page_type_fund")
 
     def goto_danjuan(self):
@@ -27,4 +24,6 @@ class TradePage(BasePage):
         # self.driver.switch_to.context('WEBVIEW_com.xueqiu.android')
         print(self.driver.page_source)
         self.driver.find_element(*self._danjuan_open).click()
+        self.logger.info("点击蛋卷基金")
+        self.logger.info(self._danjuan_open)
         # self.driver.find_element(*self._danjuan_open).click()
