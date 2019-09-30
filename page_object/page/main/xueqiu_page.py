@@ -2,6 +2,7 @@ from appium import webdriver
 from selenium.webdriver.common.by import By
 import logging
 
+from page_object.logs.getlog import GetLog
 from page_object.page.basepage import BasePage
 from page_object.page.profile.profile_page import ProfilePage
 from page_object.page.stock.search_page import SearchPage
@@ -13,7 +14,7 @@ class XueQiuPage(BasePage):
     _app = "com.xueqiu.android"
     _acticity = ".view.WelcomeActivityAlias"
     _profile_icon = (By.ID, "user_profile_icon")
-
+    logger = GetLog().set_log_config_1()
 
     def first_start(self):
         caps = {}
@@ -28,6 +29,7 @@ class XueQiuPage(BasePage):
         # caps['resetKeyboard']= True
         caps['automationName'] = 'uiautomator2'
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
+        logging.info("")
         self.driver.implicitly_wait(10)
         XueQiuPage.driver = self.driver
         # 等待元素出现
@@ -39,7 +41,7 @@ class XueQiuPage(BasePage):
     def __init__(self):
         if XueQiuPage.driver is None:
             print("diyici chushihua")
-            self.logger.info("第一启动")
+            logging.info("第一启动")
             self.first_start()
         else:
             print("lanch")
